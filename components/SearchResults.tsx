@@ -10,7 +10,7 @@ interface SearchResultsProps {
 
 export function SearchResults({ results }: SearchResultsProps) {
   return (
-    <div>
+    <div className="searchResults">
       {results.map((product) => {
         return <ProductItem product={product} key={product.id} />;
       })}

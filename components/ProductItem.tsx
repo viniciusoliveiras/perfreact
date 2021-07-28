@@ -8,8 +8,8 @@ interface ProductItemProps {
 
 export function ProductItem({ product }: ProductItemProps) {
   return (
-    <div>
-      {product.title} - <strong>R$ {product.price}</strong>
+    <div className="productItem">
+      {product.title}: <strong>R$ {product.price}</strong>
     </div>
   );
 }

@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(48, 48, 48);
+  margin: 3rem;
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+button {
+  margin-left: 1rem;
+  background-color: green;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 0.7rem;
+  transition: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.searchResults {
+  margin-top: 2rem;
+  color: #ccc;
+}
+
+.productItem {
+  margin-top: 0.5rem;
+
+  
+}
+
+.productItem strong {
+  color:aquamarine
+}
