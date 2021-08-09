@@ -39,10 +39,12 @@ button:hover {
 
 .productItem {
   margin-top: 0.5rem;
-
-  
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .productItem strong {
-  color:aquamarine
+  color: aquamarine;
 }
