@@ -39,7 +39,8 @@ button:hover {
 
 .productItem {
   margin-top: 0.5rem;
-  width: 20rem;
+  min-width: 20rem;
+  max-width: 50rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +52,8 @@ button:hover {
 
 .productItem button.addToWishList {
   background-color: white;
+  font-size: "1.5rem";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
